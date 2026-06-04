@@ -21,7 +21,7 @@ export const App = () => {
 
   return (
     <>
-      <h1 className="Title">Selected tab is {activeTabTitle}</h1>
+      <h1 className="title">Selected tab is {activeTabTitle}</h1>
       <Tabs
         tabs={tabs}
         activeTabId={selectedTab}
